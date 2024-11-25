@@ -23,7 +23,7 @@ int main(){
         cout << "You can't input a negative number";
     }
     else if(number <= 1){
-        cout << "The factorial of the number is: " << factorial;
+        cout << "The factorial of the number is: " << factorial << endl;
     }
     else{
       for(int i = number; i >= 2; i--){
