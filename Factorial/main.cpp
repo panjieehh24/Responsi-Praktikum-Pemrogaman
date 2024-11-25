@@ -29,7 +29,7 @@ int main(){
       for(int i = number; i >= 2; i--){
         factorial = factorial * i;
       }
-      cout <<"The factorial of " << number << " is: " << factorial;
+      cout <<"The factorial of " << number << " is: " << factorial << endl;
     }
     return 0;
 }
