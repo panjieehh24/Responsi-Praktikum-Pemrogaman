@@ -1,17 +1,19 @@
 #include <iostream>
-#include
+#include <string>
 using namespace std;
 
 int main(){
   char f;
 string str;
+cout << "This is a function for reverse a string program \n";
+cout << "=============================================== \n";
   cout << "Do you want this file run as a hardcode? (y/n): ";
   cin >> f;
 
-    if(f == y){
+    if(f == 'y'){
 str = "FishCat";
     } else {
-      cout << "Enter the word/ string";
+      cout << "Enter the word/string: ";
 cin >> str;
   }
 
